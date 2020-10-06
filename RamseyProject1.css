@@ -1,0 +1,44 @@
+.header {
+    padding: 5px;
+    text-align: center;
+    background: #93a8a4;
+    color: white;
+    font-size: 30px;
+    font-family:"Courier New", Courier, monospace; 
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+  }
+  
+  .axis text {
+    font-family:"Courier New", Courier, monospace; ;
+    font-size: 11px;
+  }
+
+  .label {
+    font-family:"Courier New", Courier, monospace; f;
+    font-size: 30px;
+  }
+
+  #mapSVG svg:hover {
+    fill: #fce57e;
+}
+
+span:before{
+  content:" "; 
+  display:inline-block; 
+  width:32px;
+}
+
+text{
+  font-family:"Courier New", Courier, monospace; 
+}
+
+#content1::after{
+  content: "\a";
+  white-space: pre;
+}
